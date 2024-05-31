@@ -1,0 +1,16 @@
+{
+    "GameObject_PeaShooterBullet": {
+        "str_name": "Bullet",
+        "vec4_position": "vec4(100.0, 100.0, 0.0, 0.0)",
+        "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+        "vec4_scale": "vec4(1.0, 1.0, 1.0, 0.0)",
+        "ProjectileDamageAction_ProjectileAction": {
+            "vec4_velocity": "vec4(0.0, 0.0, 0.0, 0.0)",
+            "float_lifeTime": 10.0,
+            "int_damage": 1,
+            "int_canDamagePlayer": 0,
+            "int_canDamageEnemy": 1,
+            "int_canDamageProjectile":  1
+        }
+    }
+}

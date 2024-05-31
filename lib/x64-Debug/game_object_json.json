@@ -1,0 +1,24 @@
+{
+    "GameObject_npc":{
+        "int_age":25,
+        "float_mana": 100.0,
+        "obj_spellbook":{
+            "obj_page1":{
+                "str_spell1" : "Eldritch_Blast",
+                "str_spell2" : "Hex",
+                "str_spell3" : "Darkness"
+            },
+            "obj_page2":{
+                "str_spell1" : "Fireball"
+            }
+        },
+        "GameObject_friends":[
+            {
+                "int_age":26
+            },
+            {
+                "int_age":76
+            }
+        ]
+    }
+}

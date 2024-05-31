@@ -1,0 +1,34 @@
+{
+    "AttributedWarlock_wyll":{
+        "str_newName" : "Blade_of_Frontiers",
+        "int_newAge":25,
+        "float_newMana": 100.0,
+        "vec4_newPosition": "vec4(1.0, 2.0, 3.0, 4.0)",
+        "mat4_newTransform": "mat4x4((1.0, 0.0, 0.0, 0.0), (0.0, 1.0, 0.0, 0.0), (0.0, 0.0, 1.0, 0.0), (0.0, 0.0, 0.0, 1.0))",
+        "obj_newSpellbook":{
+            "obj_page1":{
+                "str_spell1" : "Eldritch_Blast",
+                "str_spell2" : "Hex",
+                "str_spell3" : "Darkness"
+            },
+            "obj_page2":{
+                "str_spell1" : "Fireball"
+            }
+        },
+        "str_target_enemy": ["goblin", "imp", "troll"],
+        "int_target_count":[3, 2, 1],
+        "float_target_timer": [50.0, 35.7, 83.5],
+        "vec4_target_position": ["vec4(1.0, 2.0, 3.0, 4.0)", "vec4(5.0, 6.0, 7.0, 8.0)", "vec4(9.0, 10.0, 11.0, 12.0)"],
+        "mat4_target_transform": ["mat4x4((1.0, 0.0, 0.0, 0.0), (0.0, 1.0, 0.0, 0.0), (0.0, 0.0, 1.0, 0.0), (0.0, 0.0, 0.0, 1.0))"],
+        "AttributedWarlock_friends":[
+            {
+                "str_name" : "lockA",
+                "int_age":26
+            },
+            {
+                "str_name" : "lockB",
+                "int_age":76
+            }
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+	"GameObject_FireFly": {
+		"str_name": "FireFly",
+		"vec4_position": "vec4(-100.0, -100.0, 0.0, 0.0)",
+		"vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+		"vec4_scale": "vec4(0.75, 0.85, 1.0, 0.0)",
+		"AnimRenderAction_AnimRenderAction": {
+			"int_startingCell": 0,
+			"int_frameRate": 24,
+			"int_nFrames": 10,
+			"int_nCols": 31,
+			"int_nRows": 1,
+			"int_cellWidth": 600,
+			"int_cellHeight": 600,
+			"float_currFrame": 0.0,
+			"int_loopCount": 0,
+			"int_loopLimt": -1,
+			"int_textureRef": 17,
+			"int_width": 18600,
+			"int_height": 600,
+			"vec4_color": "vec4(1.0, 1.0, 1.0, 1.0)",
+			"int_drawOrder": 10,
+			"float_sizeX": 400,
+			"float_sizeY": 500
+		},
+		"DamageDealer_DamageDealer": {
+			"int_damage": 1,
+			"int_canDamagePlayer": 1,
+			"int_canDamageEnemy": 0,
+			"int_canDamageProjectile": 0
+		},
+		"DamageReceiver_DamageReceiver": {
+			"int_maxHealth": 5,
+			"int_currentHealth": 5,
+			"float_damageCooldown": 0.2
+		},
+		"BoxCollider_Collider": {
+			"int_tag": 2,
+			"float_halfHeight": 40.0,
+			"float_halfWidth": 30.0,
+			"vec4_posOffset": "vec4(0.0, 0.0, 0.0, 0.0)"
+		}
+	}
+}

@@ -1,0 +1,561 @@
+{
+  "GameObject_World": {
+    "GameObject_GameManager": {
+      "str_name": "GameManager",
+      "vec4_position": "vec4(0.0, 0.0, 0.0, 0.0)",
+      "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+      "vec4_scale": "vec4(1.0, 1.0, 1.0, 0.0)",
+      "ChangeGameState_ChangeGameState": {},
+      "GameObject_HealthUI": {
+        "str_name": "HealthUI",
+        "vec4_position": "vec4(40.0, 25.0, 0.0, 0.0)",
+        "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+        "vec4_scale": "vec4(0.8, 0.8, 0.8, 0.0)",
+        "HealthRenderAction_HealthUI": {
+          "int_startingCell": 5,
+          "int_frameRate": 1,
+          "int_nFrames": 1,
+          "int_nCols": 6,
+          "int_nRows": 2,
+          "int_cellWidth": 75,
+          "int_cellHeight": 35,
+          "float_currFrame": 0.0,
+          "int_loopCount": 0,
+          "int_loopLimt": -1,
+          "int_textureRef": 27,
+          "int_width": 481,
+          "int_height": 69,
+          "vec4_color": "vec4(1.0, 1.0, 1.0, 1.0)",
+          "int_drawOrder": 500,
+          "float_sizeX": 75,
+          "float_sizeY": 35
+        }
+      },
+      "GameObject_Cuphead": {
+        "str_name": "GameObject_Cuphead",
+        "vec4_position": "vec4(50.0, 125.0, 0.0, 0.0)",
+        "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+        "vec4_scale": "vec4(0.75, 1.0, 1.0, 0.0)",
+        "AnimRenderAction_AnimRenderAction": {
+          "int_startingCell": 0,
+          "int_frameRate": 24,
+          "int_nFrames": 10,
+          "int_nCols": 40,
+          "int_nRows": 11,
+          "int_cellWidth": 450,
+          "int_cellHeight": 450,
+          "float_currFrame": 0.0,
+          "int_loopCount": 0,
+          "int_loopLimt": -1,
+          "int_textureRef": 14,
+          "int_width": 18000,
+          "int_height": 4950,
+          "vec4_color": "vec4(1.0, 1.0, 1.0, 1.0)",
+          "int_drawOrder": 20,
+          "float_sizeX": 350,
+          "float_sizeY": 350
+        },
+        "BoxCollider_Collider": {
+          "int_tag": 0,
+          "float_halfHeight": 60.0,
+          "float_halfWidth": 50.0,
+          "vec4_posOffset": "vec4(0.0, 0.0, 0.0, 0.0)"
+        },
+        "CombatAction_CombatAction": {},
+        "DamageReceiver_DamageReceiver": {
+          "int_maxHealth": 3,
+          "int_currentHealth": 3,
+          "float_damageCooldown": 2.0,
+          "float_damageCooldownTimer": 0.0
+        },
+        "PeaShooter_PeaShooter": {
+          "str_projectilePrefab": "../FieaCuphead/JSON/PeaShooterBullet.json",
+          "float_fireRate": 0.11
+        },
+        "Reaction_reactToFireGunEvent": {
+          "str_eventName": "OnPeaSpawnEvent",
+          "PlaySFXRandomAction_playSound": {
+            "int_numberOfSounds": 15,
+            "str_filenames": [
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDefaultFire/AudioClip/SingleFires/fire_01.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDefaultFire/AudioClip/SingleFires/fire_02.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDefaultFire/AudioClip/SingleFires/fire_03.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDefaultFire/AudioClip/SingleFires/fire_04.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDefaultFire/AudioClip/SingleFires/fire_05.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDefaultFire/AudioClip/SingleFires/fire_06.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDefaultFire/AudioClip/SingleFires/fire_07.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDefaultFire/AudioClip/SingleFires/fire_08.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDefaultFire/AudioClip/SingleFires/fire_09.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDefaultFire/AudioClip/SingleFires/fire_10.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDefaultFire/AudioClip/SingleFires/fire_11.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDefaultFire/AudioClip/SingleFires/fire_12.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDefaultFire/AudioClip/SingleFires/fire_13.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDefaultFire/AudioClip/SingleFires/fire_14.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDefaultFire/AudioClip/SingleFires/fire_15.wav"
+            ],
+            "float_volume": 0.3
+          }
+        },
+        "Reaction_reactToJump": {
+          "str_eventName": "OnStartJumpEvent",
+          "PlaySFXRandomAction_playSound": {
+            "int_numberOfSounds": 3,
+            "str_filenames": [
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadJump/AudioClip/sfx_player_jump_01.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadJump/AudioClip/sfx_player_jump_02.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadJump/AudioClip/sfx_player_jump_03.wav"
+            ],
+            "float_volume": 0.3
+          }
+        },
+        "Reaction_reactToDash": {
+          "str_eventName": "OnStartDashEvent",
+          "PlaySFXRandomAction_playSound": {
+            "int_numberOfSounds": 3,
+            "str_filenames": [
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDash/AudioClip/sfx_player_dash_01.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDash/AudioClip/sfx_player_dash_02.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDash/AudioClip/sfx_player_dash_03.wav"
+            ],
+            "float_volume": 0.3
+          }
+        },
+        "Reaction_reactToTakeDamage": {
+          "str_eventName": "OnCupheadTakeDamageEvent",
+          "PlaySFXRandomAction_playSound1": {
+            "int_numberOfSounds": 3,
+            "str_filenames": [
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadHit/AudioClip/sfx_player_hit_01.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadHit/AudioClip/sfx_player_hit_02.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadHit/AudioClip/sfx_player_hit_03.wav"
+            ],
+            "float_volume": 0.3
+          },
+          "PlaySFXRandomAction_playSound2": {
+            "int_numberOfSounds": 3,
+            "str_filenames": [
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDamageCrack/AudioClip/sfx_player_damage_crack_level1.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDamageCrack/AudioClip/sfx_player_damage_crack_level2.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDamageCrack/AudioClip/sfx_player_damage_crack_level3.wav"
+            ],
+            "float_volume": 0.3
+          }
+        },
+        "Reaction_reactToDie": {
+          "str_eventName": "OnCupheadDieEvent",
+          "PlaySFXRandomAction_playSound1": {
+            "int_numberOfSounds": 2,
+            "str_filenames": [
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDeath/AudioClip/sfx_player_death_01.wav",
+              "../../Audio Assets/Frog Level/SFX/Cuphead/CupheadDeath/AudioClip/sfx_player_death_02.wav"
+            ],
+            "float_volume": 0.3
+          }
+        }
+      },
+      "GameObject_TallFrog": {
+        "str_name": "GameObject_TallFrog",
+        "vec4_position": "vec4(645.0, 300.0, 0.0, 0.0)",
+        "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+        "vec4_scale": "vec4(0.7, 0.85, 1.0, 0.0)",
+        "AnimRenderAction_AnimRenderAction": {
+          "int_startingCell": 0,
+          "int_frameRate": 24,
+          "int_nFrames": 37,
+          "int_nCols": 16,
+          "int_nRows": 15,
+          "int_cellWidth": 887,
+          "int_cellHeight": 750,
+          "float_currFrame": 0.0,
+          "int_loopCount": 0,
+          "int_loopLimt": -1,
+          "int_textureRef": 12,
+          "int_width": 13305,
+          "int_height": 12000,
+          "vec4_color": "vec4(1.0, 1.0, 1.0, 1.0)",
+          "int_drawOrder": 10,
+          "float_sizeX": 750,
+          "float_sizeY": 750
+        },
+        "BoxCollider_Collider": {
+          "int_tag": 1,
+          "float_halfHeight": 250.0,
+          "float_halfWidth": 75.0,
+          "vec4_posOffset": "vec4(0.0, 0.0, 0.0, 0.0)"
+        },
+        "DamageDealer_DamageDealer": {
+          "int_damage": 1,
+          "int_canDamagePlayer": 1,
+          "int_canDamageEnemy": 0,
+          "int_canDamageProjectile": 0
+        },
+        "DamageReceiver_DamageReceiver": {
+          "int_maxHealth": 999999,
+          "int_currentHealth": 999999,
+          "float_damageCooldown": 0.15,
+          "float_damageCooldownTimer": 0.0
+        }
+      },
+      "GameObject_ShortFrog": {
+        "str_name": "GameObject_ShortFrog",
+        "vec4_position": "vec4(625.0, 230.0, 0.0, 0.0)",
+        "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+        "vec4_scale": "vec4(0.7, 0.7, 1.0, 0.0)",
+        "AnimRenderAction_AnimRenderAction": {
+          "int_startingCell": 0,
+          "int_frameRate": 24,
+          "int_nFrames": 37,
+          "int_nCols": 40,
+          "int_nRows": 5,
+          "int_cellWidth": 690,
+          "int_cellHeight": 525,
+          "float_currFrame": 0.0,
+          "int_loopCount": 0,
+          "int_loopLimt": -1,
+          "int_textureRef": 13,
+          "int_width": 27600,
+          "int_height": 2625,
+          "vec4_color": "vec4(1.0, 1.0, 1.0, 1.0)",
+          "int_drawOrder": 11,
+          "float_sizeX": 750,
+          "float_sizeY": 750
+        },
+        "BoxCollider_Collider": {
+          "int_tag": 1,
+          "float_halfHeight": 100.0,
+          "float_halfWidth": 75.0,
+          "vec4_posOffset": "vec4(0.0, 0.0, 0.0, 0.0)"
+        },
+        "DamageDealer_DamageDealer": {
+          "int_damage": 1,
+          "int_canDamagePlayer": 1,
+          "int_canDamageEnemy": 0,
+          "int_canDamageProjectile": 0
+        },
+        "DamageReceiver_DamageReceiver": {
+          "int_maxHealth": 999999,
+          "int_currentHealth": 999999,
+          "float_damageCooldown": 0.15,
+          "float_damageCooldownTimer": 0.0
+        }
+      }
+    },
+    "GameObject_Backgrounds": {
+      "str_name": "Backgrounds",
+      "vec4_position": "vec4(0.0, 0.0, 0.0, 0.0)",
+      "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+      "vec4_scale": "vec4(1.0, 1.0, 1.0, 0.0)",
+      "GameObject_bgLayerE": {
+        "str_name": "bgLayerE",
+        "vec4_position": "vec4(375.0, 400.0, 0.0, 0.0)",
+        "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+        "vec4_scale": "vec4(1.0, 1.4, 1.0, 0.0)",
+        "RenderAction_RenderAction": {
+          "int_textureRef": 5,
+          "int_width": 1024,
+          "int_height": 261,
+          "vec4_color": "vec4(1.0, 1.0, 1.0, 1.0)",
+          "int_drawOrder": -10,
+          "float_sizeX": 1024.0,
+          "float_sizeY": 261.0
+        }
+      },
+      "GameObject_bgLayerD": {
+        "str_name": "bgLayerD",
+        "vec4_position": "vec4(360.0, 410.0, 0.0, 0.0)",
+        "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+        "vec4_scale": "vec4(0.9, 1.4, 1.0, 0.0)",
+        "RenderAction_RenderAction": {
+          "int_textureRef": 6,
+          "int_width": 983,
+          "int_height": 382,
+          "vec4_color": "vec4(1.0, 1.0, 1.0, 1.0)",
+          "int_drawOrder": -9,
+          "float_sizeX": 983.0,
+          "float_sizeY": 382.0
+        }
+      },
+      "GameObject_bgLayerC": {
+        "str_name": "bgLayerC",
+        "vec4_position": "vec4(375.0, 325.0, 0.0, 0.0)",
+        "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+        "vec4_scale": "vec4(1.0, 1.4, 1.0, 0.0)",
+        "RenderAction_RenderAction": {
+          "int_textureRef": 10,
+          "int_width": 1007,
+          "int_height": 542,
+          "vec4_color": "vec4(1.0, 1.0, 1.0, 1.0)",
+          "int_drawOrder": -5,
+          "float_sizeX": 1007.0,
+          "float_sizeY": 542.0
+        }
+      },
+      "GameObject_ReadyWallop": {
+        "str_name": "GameObject_ReadyWallop",
+        "vec4_position": "vec4(400.0, 300.0, 0.0, 0.0)",
+        "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+        "vec4_scale": "vec4(1.0, 1.0, 1.0, 0.0)",
+        "ParticleRenderAction_ParticleRenderAction": {
+          "int_startingCell": 0,
+          "int_frameRate": 24,
+          "int_nFrames": 50,
+          "int_nCols": 50,
+          "float_currFrame": 0.0,
+          "int_textureRef": 24,
+          "int_width": 25600,
+          "int_height": 288,
+          "int_drawOrder": 500,
+          "float_sizeX": 800,
+          "float_sizeY": 600,
+          "float_jeffVariable": -0.9,
+          "Reaction_react": {
+            "str_eventName": "OnTauntStartEvent",
+            "ActionIncrement": {
+              "str_key": "float_jeffVariable",
+              "float_value": 1
+            }
+          }
+        }
+      },
+      "GameObject_Iris": {
+        "str_name": "GameObject_Iris",
+        "vec4_position": "vec4(400.0, 300.0, 0.0, 0.0)",
+        "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+        "vec4_scale": "vec4(1.0, 1.0, 1.0, 0.0)",
+        "ParticleRenderAction_ParticleRenderAction": {
+          "int_startingCell": 0,
+          "int_frameRate": 24,
+          "int_nFrames": 18,
+          "int_nCols": 18,
+          "float_currFrame": 0.0,
+          "int_textureRef": 30,
+          "int_width": 9216,
+          "int_height": 288,
+          "int_drawOrder": 501,
+          "float_sizeX": 800,
+          "float_sizeY": 600,
+          "float_jeffVariable": -0.9,
+          "Reaction_react": {
+            "str_eventName": "OnGameStartEvent",
+            "ActionIncrement": {
+              "str_key": "float_jeffVariable",
+              "float_value": 1
+            }
+          }
+        }
+      },
+      "GameObject_AKnockout": {
+        "str_name": "GameObject_AKnockout",
+        "vec4_position": "vec4(400.0, 300.0, 0.0, 0.0)",
+        "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+        "vec4_scale": "vec4(1.0, 1.0, 1.0, 0.0)",
+        "ParticleRenderAction_ParticleRenderAction": {
+          "int_startingCell": 0,
+          "int_frameRate": 24,
+          "int_nFrames": 27,
+          "int_nCols": 27,
+          "float_currFrame": 0.0,
+          "int_textureRef": 25,
+          "int_width": 13824,
+          "int_height": 288,
+          "int_drawOrder": 501,
+          "float_sizeX": 800,
+          "float_sizeY": 600,
+          "float_jeffVariable": -0.9,
+          "Reaction_react": {
+            "str_eventName": "OnBossDefeatEvent",
+            "ActionIncrement": {
+              "str_key": "float_jeffVariable",
+              "float_value": 1
+            }
+          }
+        }
+      },
+      "GameObject_bgLayerA": {
+        "str_name": "bgLayerA",
+        "vec4_position": "vec4(375.0, 0.0, 0.0, 0.0)",
+        "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+        "vec4_scale": "vec4(1.0, 1.0, 1.0, 1.0)",
+        "RenderAction_RenderAction": {
+          "int_textureRef": 28,
+          "int_width": 918,
+          "int_height": 231,
+          "vec4_color": "vec4(1.0, 1.0, 1.0, 1.0)",
+          "int_drawOrder": 400,
+          "float_sizeX": 1000,
+          "float_sizeY": 400
+        }
+      },
+      "GameObject_bgLayerB": {
+        "str_name": "bgLayerB",
+        "vec4_position": "vec4(450.0, 50.0, 0.0, 0.0)",
+        "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+        "vec4_scale": "vec4(1.0, 1.0, 1.0, 1.0)",
+        "RenderAction_RenderAction": {
+          "int_textureRef": 29,
+          "int_width": 925,
+          "int_height": 180,
+          "vec4_color": "vec4(1.0, 1.0, 1.0, 1.0)",
+          "int_drawOrder": 400,
+          "float_sizeX": 1050,
+          "float_sizeY": 300
+        }
+      }
+    },
+    "GameObject_NPCS": {
+      "str_name": "NPCS",
+      "vec4_position": "vec4(0.0, 0.0, 0.0, 0.0)",
+      "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+      "vec4_scale": "vec4(1.0, 1.0, 1.0, 0.0)",
+      "GameObject_Dancers": {
+        "str_name": "Dancers",
+        "vec4_position": "vec4(376.0, 361.0, 0.0, 0.0)",
+        "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+        "vec4_scale": "vec4(0.63, 0.65, 1.0, 0.0)",
+        "AnimRenderAction_AnimRenderAction": {
+          "int_startingCell": 0,
+          "int_frameRate": 12,
+          "int_nFrames": 18,
+          "int_nCols": 18,
+          "int_nRows": 1,
+          "int_cellWidth": 165,
+          "int_cellHeight": 125,
+          "float_currFrame": 0.0,
+          "int_loopCount": 0,
+          "int_loopLimt": -1,
+          "int_textureRef": 7,
+          "int_width": 2970,
+          "int_height": 125,
+          "vec4_color": "vec4(1.0, 1.0, 1.0, 1.0)",
+          "int_drawOrder": -8,
+          "float_sizeX": 125.0,
+          "float_sizeY": 165.0
+        }
+      },
+      "GameObject_JazzCrowdB": {
+        "str_name": "CrowdB",
+        "vec4_position": "vec4(170.0, 300.0, 0.0, 0.0)",
+        "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+        "vec4_scale": "vec4(0.55, 0.735, 1.0, 0.0)",
+        "AnimRenderAction_AnimRenderAction": {
+          "int_startingCell": 0,
+          "int_frameRate": 12,
+          "int_nFrames": 24,
+          "int_nCols": 24,
+          "int_nRows": 1,
+          "int_cellWidth": 432,
+          "int_cellHeight": 180,
+          "float_currFrame": 0.0,
+          "int_loopCount": 0,
+          "int_loopLimt": -1,
+          "int_textureRef": 8,
+          "int_width": 10386,
+          "int_height": 180,
+          "vec4_color": "vec4(1.0, 1.0, 1.0, 1.0)",
+          "int_drawOrder": -7,
+          "float_sizeX": 432.0,
+          "float_sizeY": 180.0
+        }
+      },
+      "GameObject_Waiter": {
+        "str_name": "Waiter",
+        "vec4_position": "vec4(1200.0, 309.0, 0.0, 0.0)",
+        "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+        "vec4_scale": "vec4(0.6, 0.75, 1.0, 0.0)",
+        "AnimRenderAction_AnimRenderAction": {
+          "int_startingCell": 0,
+          "int_frameRate": 24,
+          "int_nFrames": 8,
+          "int_nCols": 8,
+          "int_nRows": 1,
+          "int_cellWidth": 194,
+          "int_cellHeight": 229,
+          "float_currFrame": 0.0,
+          "int_loopCount": 0,
+          "int_loopLimt": -1,
+          "int_textureRef": 9,
+          "int_width": 1552,
+          "int_height": 229,
+          "vec4_color": "vec4(1.0, 1.0, 1.0, 1.0)",
+          "int_drawOrder": -6,
+          "float_sizeX": 194.0,
+          "float_sizeY": 229.0
+        }
+      },
+      "GameObject_JazzCrowdA": {
+        "str_name": "CrowdA",
+        "vec4_position": "vec4(378.0, 285.0, 0.0, 0.0)",
+        "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+        "vec4_scale": "vec4(0.572, 0.75, 1.0, 0.0)",
+        "AnimRenderAction_AnimRenderAction": {
+          "int_startingCell": 0,
+          "int_frameRate": 12,
+          "int_nFrames": 24,
+          "int_nCols": 24,
+          "int_nRows": 1,
+          "int_cellWidth": 20256,
+          "int_cellHeight": 335,
+          "float_currFrame": 0.0,
+          "int_loopCount": 0,
+          "int_loopLimt": -1,
+          "int_textureRef": 11,
+          "int_width": 20256,
+          "int_height": 335,
+          "vec4_color": "vec4(1.0, 1.0, 1.0, 1.0)",
+          "int_drawOrder": -4,
+          "float_sizeX": 844.0,
+          "float_sizeY": 335.0
+        }
+      },
+      "GameObject_Announcer": {
+        "str_name": "Announcer",
+        "vec4_position": "vec4(0.0, 0.0, 0.0, 0.0)",
+        "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+        "vec4_scale": "vec4(1.0, 1.0, 1.0, 0.0)",
+        "Reaction_reactToGameStart": {
+          "str_eventName": "OnGameStartEvent",
+          "PlaySFXRandomAction_playSound": {
+            "int_numberOfSounds": 5,
+            "str_filenames": [
+              "../../Audio Assets/Frog Level/SFX/Announcer/AnnouncerStart/AudioClip/sfx_level_announcer_0001_a.wav",
+              "../../Audio Assets/Frog Level/SFX/Announcer/AnnouncerStart/AudioClip/sfx_level_announcer_0001_b.wav",
+              "../../Audio Assets/Frog Level/SFX/Announcer/AnnouncerStart/AudioClip/sfx_level_announcer_0001_c.wav",
+              "../../Audio Assets/Frog Level/SFX/Announcer/AnnouncerStart/AudioClip/sfx_level_announcer_0001_d.wav",
+              "../../Audio Assets/Frog Level/SFX/Announcer/AnnouncerStart/AudioClip/sfx_level_announcer_0001_e.wav"
+            ],
+            "float_volume": 0.5
+          }
+        },
+        "Reaction_reactToFightStart": {
+          "str_eventName": "OnFightStartEvent",
+          "PlaySFXRandomAction_playSound": {
+            "int_numberOfSounds": 5,
+            "str_filenames": [
+              "../../Audio Assets/Frog Level/SFX/Announcer/AnnouncerStart/AudioClip/sfx_level_announcer_0002_a.wav",
+              "../../Audio Assets/Frog Level/SFX/Announcer/AnnouncerStart/AudioClip/sfx_level_announcer_0002_b.wav",
+              "../../Audio Assets/Frog Level/SFX/Announcer/AnnouncerStart/AudioClip/sfx_level_announcer_0002_c.wav",
+              "../../Audio Assets/Frog Level/SFX/Announcer/AnnouncerStart/AudioClip/sfx_level_announcer_0002_d.wav",
+              "../../Audio Assets/Frog Level/SFX/Announcer/AnnouncerStart/AudioClip/sfx_level_announcer_0002_e.wav"
+            ],
+            "float_volume": 0.5
+          }
+        },
+        "Reaction_reactToBossDefeat": {
+          "str_eventName": "OnBossDefeatEvent",
+          "PlaySFXAction_playSound1": {
+            "str_filename": "../../Audio Assets/Frog Level/SFX/Announcer/AnnouncerKnockout/AudioClip/sfx_level_announcer_knockout_0004.wav",
+            "float_volume": 0.5
+          },
+          "PlaySFXAction_playSound2": {
+            "str_filename": "../../Audio Assets/Frog Level/SFX/Announcer/AnnouncerKnockout/AudioClip/sfx_level_knockout_bell.wav",
+            "float_volume": 0.5
+          },
+          "PlaySFXAction_playSound3": {
+            "str_filename": "../../Audio Assets/Frog Level/SFX/Announcer/AnnouncerKnockout/AudioClip/sfx_level_knockout_boom_01.wav",
+            "float_volume": 0.5
+          }
+        }
+      }
+    }
+  }
+}

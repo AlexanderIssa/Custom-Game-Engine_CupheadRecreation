@@ -1,0 +1,39 @@
+{
+	"GameObject_ClapBall": {
+		"str_name": "Ball",
+		"vec4_position": "vec4(-100.0, -100.0, 0.0, 0.0)",
+		"vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+		"vec4_scale": "vec4(0.6, 0.8, 1.0, 0.0)",
+		"AnimRenderAction_AnimRenderAction": {
+			"int_startingCell": 0,
+			"int_frameRate": 24,
+			"int_nFrames": 10,
+			"int_nCols": 6,
+			"int_nRows": 1,
+			"int_cellWidth": 200,
+			"int_cellHeight": 200,
+			"float_currFrame": 0.0,
+			"int_loopCount": 0,
+			"int_loopLimt": -1,
+			"int_textureRef": 18,
+			"int_width": 1200,
+			"int_height": 200,
+			"vec4_color": "vec4(1.0, 1.0, 1.0, 1.0)",
+			"int_drawOrder": 10,
+			"float_sizeX": 200,
+			"float_sizeY": 200
+		},
+		"DamageDealer_DamageDealer": {
+			"int_damage": 1,
+			"int_canDamagePlayer": 1,
+			"int_canDamageEnemy": 0,
+			"int_canDamageProjectile": 0
+		},
+		"BoxCollider_Collider": {
+			"int_tag": 2,
+			"float_halfHeight": 50.0,
+			"float_halfWidth": 40.0,
+			"vec4_posOffset": "vec4(0.0, 0.0, 0.0, 0.0)"
+		}
+	}
+}

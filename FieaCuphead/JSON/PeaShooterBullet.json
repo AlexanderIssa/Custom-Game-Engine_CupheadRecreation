@@ -1,0 +1,49 @@
+{
+    "GameObject_PeaShooterBullet": {
+        "str_name": "Bullet",
+        "vec4_position": "vec4(100.0, -100.0, 0.0, 0.0)",
+        "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+        "vec4_scale": "vec4(1.0, 1.0, 1.0, 0.0)",
+        "AnimRenderAction_AnimRenderAction": {
+            "int_startingCell": 0,
+            "int_frameRate": 24,
+            "int_nFrames": 6,
+            "int_nCols": 6,
+            "int_nRows": 1,
+            "int_cellWidth": 159,
+            "int_cellHeight": 43,
+            "float_currFrame": 0.0,
+            "int_loopCount": 0,
+            "int_loopLimt": -1,
+            "int_textureRef": 15,
+            "int_width": 954,
+            "int_height": 43,
+            "vec4_color": "vec4(1.0, 1.0, 1.0, 1.0)",
+            "int_drawOrder": 100,
+            "float_sizeX": 30,
+            "float_sizeY": 20
+        },
+        "ProjectileDamageAction_ProjectileDamageAction": {
+            "vec4_velocity": "vec4(0.0, 0.0, 0.0, 0.0)",
+            "float_lifeTime": 1.0,
+            "float_speed":  1000.0,
+            "int_damage": 4,
+            "int_canDamagePlayer": 0,
+            "int_canDamageEnemy": 1,
+            "int_canDamageProjectile": 1,
+            "int_deathWidth": 1578,
+            "int_deathHeight": 283,
+            "int_deathDrawOrder": 13,
+            "int_deathTexture": 20,
+            "int_deathNFrames": 6,
+            "float_deathSizeX":  100.0,
+            "float_deathSizeY":  100.0
+        },
+        "BoxCollider_Collider": {
+            "int_tag": 2,
+            "float_halfHeight": 10.0,
+            "float_halfWidth": 20.0,
+            "vec4_posOffset": "vec4(0.0, 0.0, 0.0, 0.0)"
+        }
+    }
+}

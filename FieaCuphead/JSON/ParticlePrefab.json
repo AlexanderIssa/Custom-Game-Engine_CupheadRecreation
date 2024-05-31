@@ -1,0 +1,21 @@
+{
+	"GameObject_Particle": {
+		"str_name": "Particle",
+		"vec4_position": "vec4(-100.0, -100.0, 0.0, 0.0)",
+		"vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+		"vec4_scale": "vec4(1.0, 1.0, 1.0, 0.0)",
+		"ParticleRenderAction_ParticleRenderAction": {
+			"int_startingCell": 0,
+			"int_frameRate": 24,
+			"int_nFrames": 6,
+			"int_nCols": 1,
+			"float_currFrame": 0.0,
+			"int_textureRef": 16,
+			"int_width": 5730,
+			"int_height": 120,
+			"int_drawOrder": 15,
+			"float_sizeX": 110,
+			"float_sizeY": 110
+		}
+	}
+}

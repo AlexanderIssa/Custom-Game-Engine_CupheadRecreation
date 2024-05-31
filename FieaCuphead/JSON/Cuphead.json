@@ -1,0 +1,44 @@
+{
+    "GameObject_Cuphead": {
+        "str_name": "Cuphead",
+        "vec4_position": "vec4(50.0, 125.0, 0.0, 0.0)",
+        "vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+        "vec4_scale": "vec4(0.75, 1.0, 1.0, 0.0)",
+        "AnimRenderAction_AnimRenderAction": {
+            "int_startingCell": 0,
+            "int_frameRate": 24,
+            "int_nFrames": 10,
+            "int_nCols": 40,
+            "int_nRows": 11,
+            "int_cellWidth": 450,
+            "int_cellHeight": 450,
+            "float_currFrame": 0.0,
+            "int_loopCount": 0,
+            "int_loopLimt": -1,
+            "int_textureRef": 14,
+            "int_width": 18000,
+            "int_height": 4950,
+            "vec4_color": "vec4(1.0, 1.0, 1.0, 1.0)",
+            "int_drawOrder": 10,
+            "float_sizeX": 350,
+            "float_sizeY": 350
+        },
+        "BoxCollider_Collider": {
+            "int_tag": 0,
+            "float_halfHeight": 60.0,
+            "float_halfWidth": 50.0,
+            "vec4_posOffset": "vec4(0.0, 0.0, 0.0, 0.0)"
+        },
+        "CombatAction_CombatAction": {},
+        "DamageReceiver_DamageReceiver": {
+            "int_maxHealth": 3,
+            "int_currentHealth": 3,
+            "float_damageCooldown": 2.0,
+            "float_damageCooldownTimer": 0.0
+        },
+        "PeaShooter_PeaShooter": {
+            "string_projectilePrefab": "../FieaCuphead/JSON/PeaShooterBullet.json",
+            "float_fireRate": 0.5
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AttributedClassName_key":{
+        "str_iamstring" : "string",
+        "int_iaminteger": 25,
+        "float_iamfloat": 100.0,
+        "vec4_iamvec4": "vec4(1.0, 2.0, 3.0, 4.0)",
+        "mat4_iammat4": "mat4x4((1.0, 0.0, 0.0, 0.0), (0.0, 1.0, 0.0, 0.0), (0.0, 0.0, 1.0, 0.0), (0.0, 0.0, 0.0, 1.0))"
+    },
+    "GameObject_example":{
+            "str_name": "name",
+            "vec4_position":"vec4(40.0, 125.0, 0.0, 0.0)",
+            "vec4_rotation":"vec4(0.0, 0.0, 0.0, 0.0)",
+            "vec4_scale":"vec4(0.75, 1.0, 1.0, 0.0)",
+            "GameObject_childA":{
+
+            },
+            "GameObject_childB":{
+
+            },
+            "AnimRenderAction_AnimAction":{
+                
+            } 
+    }
+}

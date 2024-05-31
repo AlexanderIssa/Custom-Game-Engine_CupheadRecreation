@@ -1,0 +1,42 @@
+{
+	"GameObject_FrogFistProjectile": {
+		"str_name": "FrogFist",
+		"vec4_position": "vec4(-100.0, -100.0, 0.0, 0.0)",
+		"vec4_rotation": "vec4(0.0, 0.0, 0.0, 0.0)",
+		"vec4_scale": "vec4(1.0, 1.0, 1.0, 0.0)",
+		"AnimRenderAction_AnimRenderAction": {
+			"int_startingCell": 0,
+			"int_frameRate": 24,
+			"int_nFrames": 6,
+			"int_nCols": 30,
+			"int_nRows": 1,
+			"int_cellWidth": 191,
+			"int_cellHeight": 120,
+			"float_currFrame": 0.0,
+			"int_loopCount": 0,
+			"int_loopLimt": -1,
+			"int_textureRef": 16,
+			"int_width": 5730,
+			"int_height": 120,
+			"vec4_color": "vec4(1.0, 1.0, 1.0, 1.0)",
+			"int_drawOrder": 10,
+			"float_sizeX": 110,
+			"float_sizeY": 110
+		},
+		"ProjectileDamageAction_ProjectileDamageAction": {
+			"vec4_velocity": "vec4(-100.0, -100.0, 0.0, 0.0)",
+			"float_lifeTime": 2.0,
+			"float_speed": 500.0,
+			"int_damage": 1,
+			"int_canDamagePlayer": 1,
+			"int_canDamageEnemy": 0,
+			"int_canDamageProjectile": 0
+		},
+		"BoxCollider_Collider": {
+			"int_tag": 2,
+			"float_halfHeight": 30.0,
+			"float_halfWidth": 23.0,
+			"vec4_posOffset": "vec4(0.0, 0.0, 0.0, 0.0)"
+		}
+	}
+}

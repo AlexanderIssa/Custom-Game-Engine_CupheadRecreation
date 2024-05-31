@@ -1,0 +1,27 @@
+{
+    "Monster_boss":{
+        "str_name": "Troll",
+        "int_age":105,
+        "float_health": 100.0,
+        "obj_skillbook":{
+            "obj_page1":{
+                "str_skill1" : "Kick",
+                "str_skill2" : "Side_Kick",
+                "str_skill3" : "Drop_Kick"
+            },
+            "obj_page2":{
+                "str_skill1" : "Fire_Breath"
+            }
+        },
+        "Monster_minions":[
+            {
+                "int_age":28,
+                "float_health": 50.0
+            },
+            {
+                "int_age":56,
+                "float_health": 50.0
+            }
+        ]
+    }
+}

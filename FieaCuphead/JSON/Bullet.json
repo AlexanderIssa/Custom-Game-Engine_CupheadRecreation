@@ -1,0 +1,11 @@
+{
+    "GameObject_Bullet": {
+      "str_name": "Bullet",
+      "vec4_position":"vec4(40.0, 125.0, 0.0, 0.0)",
+      "vec4_rotation":"vec4(0.0, 0.0, 0.0, 0.0)",
+      "vec4_scale":"vec4(0.75, 1.0, 1.0, 0.0)",
+      "AnimRenderAction_AnimAction":{
+        
+      }
+  }
+}

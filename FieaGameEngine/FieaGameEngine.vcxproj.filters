@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Attributes">
+      <UniqueIdentifier>{f377bd35-b904-4e77-acb8-483fffa50da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Attributes">
+      <UniqueIdentifier>{679cf259-0777-46dc-a505-06abc641f837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RTTI">
+      <UniqueIdentifier>{5c1e5b62-403d-4283-9807-95fa4403599a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RTTI">
+      <UniqueIdentifier>{b7f9c3b8-28e0-454a-ba8a-b3dd6ce6f3ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Datum&amp;Scope">
+      <UniqueIdentifier>{167abc81-3a55-4a9c-b277-97874c7a44a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Datum&amp;Scope">
+      <UniqueIdentifier>{df167d9c-da98-4e18-9df6-b912a1b9f648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\JSONParser">
+      <UniqueIdentifier>{d6ea50f9-1c92-42e0-b585-61e7cb2fb4a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JSONParser">
+      <UniqueIdentifier>{1ef75f97-7c4a-41c4-937d-91263653c01a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\JSONParser\Handlers">
+      <UniqueIdentifier>{de43a4f3-77fc-4991-b26c-3b97acc0f2a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\JSONParser\Wrappers">
+      <UniqueIdentifier>{1c8e3214-29d4-4acf-8d15-88aeca8ecdce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JSONParser\Handlers">
+      <UniqueIdentifier>{caf0073f-f4e6-4f02-89ab-478368a61722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JSONParser\Wrappers">
+      <UniqueIdentifier>{d1a40523-f358-4e3d-93ba-d7490ac878d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Factory">
+      <UniqueIdentifier>{1766c6cb-a3f0-424c-b5c2-62e42cc0d032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Factory">
+      <UniqueIdentifier>{89b32d9c-7972-4f2e-bf5e-bd787a6d2e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject">
+      <UniqueIdentifier>{555264d7-d685-4437-80f7-48f4fdf64804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject">
+      <UniqueIdentifier>{6da175a9-7857-4922-ae12-1ca8e334f405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Action">
+      <UniqueIdentifier>{efd792f7-04da-42ff-b7a4-eeb7aee53728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Action">
+      <UniqueIdentifier>{4fd37fb5-07b7-46e9-be9e-0a0f7821b392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\STB files">
+      <UniqueIdentifier>{b1b310eb-9daf-43a7-a4e9-0ef96de05864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{36d2ad71-e8c6-4b7a-bc3a-e324f56e7fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EventSystem">
+      <UniqueIdentifier>{b67bb5b2-3a35-4162-a3a6-b727494b324a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EventSystem">
+      <UniqueIdentifier>{d85eb9c2-4bf2-489a-8741-282ea09730b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EventSystem\Test">
+      <UniqueIdentifier>{569dae08-e22b-49bf-8c1f-e3a6c75043eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EventSystem\Test">
+      <UniqueIdentifier>{1cd7818d-9bbe-4869-ad1b-245e5c9ebc26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Audio Files">
+      <UniqueIdentifier>{1f3c23d1-261d-4b1b-908a-8a1c297a509d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Reaction">
+      <UniqueIdentifier>{0f334880-88b2-4d27-8043-f58240c43e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Reaction">
+      <UniqueIdentifier>{6770e774-be13-4995-90c4-51bcf5d08060}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Temp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributed.h">
+      <Filter>Header Files\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedFoo.h">
+      <Filter>Header Files\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Empty.h">
+      <Filter>Header Files\RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="Foo.h">
+      <Filter>Header Files\RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="FooFoo.h">
+      <Filter>Header Files\RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="RTTI.h">
+      <Filter>Header Files\RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedWarlock.h">
+      <Filter>Header Files\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedBar.h">
+      <Filter>Header Files\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Datum.h">
+      <Filter>Header Files\Datum&amp;Scope</Filter>
+    </ClInclude>
+    <ClInclude Include="Scope.h">
+      <Filter>Header Files\Datum&amp;Scope</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeManager.h">
+      <Filter>Header Files\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Signature.h">
+      <Filter>Header Files\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="IParseHandler.h">
+      <Filter>Header Files\JSONParser\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="TestParseHandler.h">
+      <Filter>Header Files\JSONParser\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="TestParseIntHandler.h">
+      <Filter>Header Files\JSONParser\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseCoordinator.h">
+      <Filter>Header Files\JSONParser</Filter>
+    </ClInclude>
+    <ClInclude Include="TableWrapper.h">
+      <Filter>Header Files\JSONParser\Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerHandler.h">
+      <Filter>Header Files\JSONParser\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatHandler.h">
+      <Filter>Header Files\JSONParser\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHandler.h">
+      <Filter>Header Files\JSONParser\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4Handler.h">
+      <Filter>Header Files\JSONParser\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4Handler.h">
+      <Filter>Header Files\JSONParser\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="TableHandler.h">
+      <Filter>Header Files\JSONParser\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryManager.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedWrapper.h">
+      <Filter>Header Files\JSONParser\Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedHandler.h">
+      <Filter>Header Files\JSONParser\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Header Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Header Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionIncrement.h">
+      <Filter>Header Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionList.h">
+      <Filter>Header Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionListWhile.h">
+      <Filter>Header Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionListSwitch.h">
+      <Filter>Header Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLFW Directories\Include\STB\stb_image.h">
+      <Filter>Source Files\STB files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLFW Directories\Include\Shader\Shader.h">
+      <Filter>Source Files\STB files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderAction.h">
+      <Filter>Header Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimRenderAction.h">
+      <Filter>Header Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="BarEvent.h">
+      <Filter>Header Files\EventSystem\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="FooEvent.h">
+      <Filter>Header Files\EventSystem\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSubscriber.h">
+      <Filter>Header Files\EventSystem\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="EventDispatcher.h">
+      <Filter>Header Files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="IEvent.h">
+      <Filter>Header Files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Source Files\Audio Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Reaction.h">
+      <Filter>Header Files\Reaction</Filter>
+    </ClInclude>
+    <ClInclude Include="ThrowBoneEvent.h">
+      <Filter>Header Files\EventSystem\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="DispatchEventAction.h">
+      <Filter>Header Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleRenderAction.h">
+      <Filter>Header Files</Filter>
+	</ClInclude>
+    <ClInclude Include="PlaySFXAction.h">
+      <Filter>Header Files\Action</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Temp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributed.cpp">
+      <Filter>Source Files\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedFoo.cpp">
+      <Filter>Source Files\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Empty.cpp">
+      <Filter>Source Files\RTTI</Filter>
+    </ClCompile>
+    <ClCompile Include="Foo.cpp">
+      <Filter>Source Files\RTTI</Filter>
+    </ClCompile>
+    <ClCompile Include="FooFoo.cpp">
+      <Filter>Source Files\RTTI</Filter>
+    </ClCompile>
+    <ClCompile Include="RTTI.cpp">
+      <Filter>Source Files\RTTI</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedWarlock.cpp">
+      <Filter>Source Files\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedBar.cpp">
+      <Filter>Source Files\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Datum.cpp">
+      <Filter>Source Files\Datum&amp;Scope</Filter>
+    </ClCompile>
+    <ClCompile Include="Scope.cpp">
+      <Filter>Source Files\Datum&amp;Scope</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeManager.cpp">
+      <Filter>Source Files\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseCoordinator.cpp">
+      <Filter>Source Files\JSONParser</Filter>
+    </ClCompile>
+    <ClCompile Include="IParseHandler.cpp">
+      <Filter>Source Files\JSONParser\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="TestParseHandler.cpp">
+      <Filter>Source Files\JSONParser\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="TestParserIntHandler.cpp">
+      <Filter>Source Files\JSONParser\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="TableWrapper.cpp">
+      <Filter>Source Files\JSONParser\Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegerHandler.cpp">
+      <Filter>Source Files\JSONParser\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatHandler.cpp">
+      <Filter>Source Files\JSONParser\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="StringHandler.cpp">
+      <Filter>Source Files\JSONParser\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4Handler.cpp">
+      <Filter>Source Files\JSONParser\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4Handler.cpp">
+      <Filter>Source Files\JSONParser\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="TableHandler.cpp">
+      <Filter>Source Files\JSONParser\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedWrapper.cpp">
+      <Filter>Source Files\JSONParser\Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedHandler.cpp">
+      <Filter>Source Files\JSONParser\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionIncrement.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionList.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionListWhile.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionListSwitch.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb.cpp">
+      <Filter>Source Files\STB files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimRenderAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BarEvent.cpp">
+      <Filter>Source Files\EventSystem\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="FooEvent.cpp">
+      <Filter>Source Files\EventSystem\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSubscriber.cpp">
+      <Filter>Source Files\EventSystem\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="EventDispatcher.cpp">
+      <Filter>Source Files\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="IEvent.cpp">
+      <Filter>Source Files\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="dr_wav_impl.cpp">
+      <Filter>Source Files\Audio Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Source Files\Audio Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Reaction.cpp">
+      <Filter>Source Files\Reaction</Filter>
+    </ClCompile>
+    <ClCompile Include="ThrowBoneEvent.cpp">
+      <Filter>Source Files\EventSystem\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="DispatchEventAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleRenderAction.cpp">
+      <Filter>Source Files</Filter>
+	</ClCompile>
+    <ClCompile Include="PlaySFXAction.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="RTTI.inl">
+      <Filter>Source Files\RTTI</Filter>
+    </None>
+    <None Include="Datum.inl">
+      <Filter>Source Files\Datum&amp;Scope</Filter>
+    </None>
+    <None Include="ParseCoordinator.inl">
+      <Filter>Source Files\JSONParser</Filter>
+    </None>
+    <None Include="FactoryManager.inl">
+      <Filter>Source Files\Factory</Filter>
+    </None>
+    <None Include="Scope.inl">
+      <Filter>Source Files\Datum&amp;Scope</Filter>
+    </None>
+    <None Include="EventDispatcher.inl">
+      <Filter>Source Files\EventSystem</Filter>
+    </None>
+    <None Include="lineVertexShader.vs" />
+    <None Include="lineFragmentShader.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="JSON\table_json.json">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="JSON\test_json.json">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="JSON\wrong_json.json">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="JSON\warlock_json.json">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="JSON\factory_test_json.json">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="JSON\game_object_json.json">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="JSON\monster_json.json">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="JSON\monster_json_2.json">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>

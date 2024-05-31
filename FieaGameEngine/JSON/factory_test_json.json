@@ -1,0 +1,15 @@
+{
+    "obj_test":{
+        "str_name" : "ABC",
+        "obj_book":{
+            "obj_page1":{
+                "str_1" : "A",
+                "str_2" : "B",
+                "str_3" : "C"
+            },
+            "obj_page2":{
+                "str_1" : "D"
+            }
+        }
+    }
+}

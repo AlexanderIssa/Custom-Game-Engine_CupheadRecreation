@@ -1,0 +1,12 @@
+{
+    "int":1,
+    "obj":{
+        "obj":{
+            "int":3,
+            "str":"def"
+        },
+        "int":1,
+        "str":"abc"
+    },
+    "float":2.0
+}

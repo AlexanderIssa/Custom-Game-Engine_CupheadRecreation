@@ -1,0 +1,7 @@
+packages/
+x64/
+lib/
+build/
+DerivedDataCache/
+.vs/
+*.user

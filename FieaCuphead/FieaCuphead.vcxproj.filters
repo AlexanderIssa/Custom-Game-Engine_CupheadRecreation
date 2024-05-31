@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\FieaGameEngine\GLFW Directories\Include\glad\glad.c" />
+    <ClCompile Include="FieaCuphead.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameObjectManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPool.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TallFrogStates.cpp" />
+    <ClCompile Include="WorldCreator.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="CupheadEvents.cpp">
+      <Filter>CupheadEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotPlatform.cpp" />
+    <ClCompile Include="HealthRenderAction.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cupheadStates.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageDealer.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageReciever.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalBoxCollider.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="FireflyStates.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalGameStates.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortFrogBallStates.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortFrogFistStates.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortFrogStates.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileAction.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="GravityAction.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeGameState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="CombatAction.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponAction.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="WindAction.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FieaCuphead.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GlobalDefinition.h" />
+    <ClInclude Include="KeyDefinitions.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldCreator.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GamepadHelper.h" />
+    <ClInclude Include="CupheadEvents.h">
+      <Filter>CupheadEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotPlatform.h" />
+    <ClInclude Include="HealthRenderAction.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cupheadStates.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageDealer.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageReciever.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalBoxCollider.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="FireflyStates.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalGameStates.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="TallFrogStates.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortFrogBallStates.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortFrogFistStates.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortFrogStates.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileAction.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="GravityAction.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeGameState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="CombatAction.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponAction.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="WindAction.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FieaCuphead.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Raw Art Assets\Raw Sprites\Background\Background Layers\Sprite\jazzbar(A)_plants.png" />
+    <Image Include="..\..\Raw Art Assets\Raw Sprites\Background\Background Layers\Sprite\jazzbar(B)_tables.png" />
+    <Image Include="..\..\Raw Art Assets\Raw Sprites\Background\Background Layers\Sprite\jazzbar(C)_mid.png" />
+    <Image Include="..\..\Raw Art Assets\Raw Sprites\Background\Background Layers\Sprite\jazzbar(D)_stage.png" />
+    <Image Include="..\..\Raw Art Assets\Raw Sprites\Background\Background Layers\Sprite\jazzbar(E)_booths.png" />
+    <Image Include="..\..\..\..\..\..\..\..\Users\msedrak\Downloads\container.jpg" />
+    <Image Include="FieaCuphead.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\FieaGameEngine\fragmentShader.fs" />
+    <None Include="..\FieaGameEngine\PostProcess.fs" />
+    <None Include="..\FieaGameEngine\vectorShader.vs" />
+    <None Include="packages.config" />
+    <None Include="JSON\Bullet.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="JSON\GameWorld.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="JSON\Example.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="..\FieaGameEngine\FrameBuffer.vs" />
+    <None Include="JSON\SimpleBoxCollider.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="JSON\Cuphead.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="JSON\FrogPlatform.json">
+      <Filter>JSON</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{5775157d-d02b-4229-8b49-4151b4d19290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{3e5fff4b-186a-4414-8efd-7aceeb7174f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CupheadEvents">
+      <UniqueIdentifier>{d234d91b-8ccd-41b5-8818-1c68f352df2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{470f6a08-a449-4acb-80f8-d4d602d999e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{df380eb5-bac7-4f75-a52b-687510b0fc54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actions">
+      <UniqueIdentifier>{1d196a64-be63-45c8-9ca1-20a0127c9edb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="JSON\PeaShooterBullet.json">
+      <Filter>JSON</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="JSON\FireFly.json">
+      <Filter>JSON</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="JSON\FrogFistProjectile.json">
+      <Filter>JSON</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="JSON\ParticlePrefab.json">
+      <Filter>JSON</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="JSON\WindPrefab.json">
+      <Filter>JSON</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="JSON\BallPrefab.json">
+      <Filter>JSON</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>
